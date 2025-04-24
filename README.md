@@ -1,4 +1,6 @@
 # CS-351
+The 'Code' version of this README file is properly formatted.
+
 
 Unoptimized: |  Real  |  User  |  System  |  Memory (KB)  |  Throughput (KB/Sec)  |  Performance Improvement
 Hash00         360.80   344.04     8.62        2912                 8.07                      N/A
