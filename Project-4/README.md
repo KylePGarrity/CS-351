@@ -1,6 +1,8 @@
 
 Part 1:
+For the code, I essentially just rewrote the example from the slides but used the equation from the c++ reference in the assignment in place of the one from the slides. 
 
+Timings that I got:
 CPU:
 |Vector<br>Length|Wall Clock<br>Time|User Time|System Time|
 |:--:|--:|--:|--:|
