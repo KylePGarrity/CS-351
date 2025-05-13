@@ -36,6 +36,7 @@ GPU:
 It seems that the CUDA does have a solid improvement on the runtime for large data size runs, but is actually worse for the small data sizes. It seems that there is more system time required when the CUDA version runs which doesn’t have much of an effect when the data size is large enough, but for the smaller ones that system time ends up greatly increasing the runtime relative to what it was.
 
 Part 2:
+For this code, I started with the contents of the nested for loop as the hint suggested, and from there used the block.Idx, blockDim, and threadIdx multiplied together as my values for x & y rather than the for loops. I compared these x and y values with width and height to know when to exit, and I changed how the Complex values were declared to work with the new x & y values as well. I also changed the color a bit to make it more exciting.
 
 .ppm file output:
 <img width="1005" alt="Screenshot 2025-05-11 at 10 18 33 PM" src="https://github.com/user-attachments/assets/35b3d497-087f-42b8-bf6a-24fc6f464342" />
