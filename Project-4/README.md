@@ -33,6 +33,8 @@ GPU:
 |1000000000| 3.31| 0.84| 2.46|
 |5000000000|16.73| 4.02|12.70|
 
+It seems that the CUDA does have a solid improvement on the runtime for large data size runs, but is actually worse for the small data sizes. It seems that there is more system time required when the CUDA version runs which doesn’t have much of an effect when the data size is large enough, but for the smaller ones that system time ends up greatly increasing the runtime relative to what it was.
+
 Part 2:
 
 .ppm file output:
